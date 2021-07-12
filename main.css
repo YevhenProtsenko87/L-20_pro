@@ -9,7 +9,7 @@ body {
    display: flex;
 }
 
-    .menu {
+.menu {
     position: absolute;
     width: 200px;
     padding: 2px;
@@ -57,7 +57,6 @@ body {
 .menu-btn .fa {
     position: absolute;
     left: 8px;
-    top: 50%;
 }
 
 .menu-item:hover > .menu-btn {
@@ -97,7 +96,6 @@ body {
 .menu-item {
     transform: translate(0, 0) scale(1);
     pointer-events: auto;
-    /* webkit-transition-delay: 100ms; */
     transition-delay: 50ms;
 } 
 

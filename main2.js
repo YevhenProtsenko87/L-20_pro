@@ -25,7 +25,7 @@ menu.addEventListener("click", event => {
 class Menu {
     constructor(elem) {
       this._elem = elem;
-      elem.onclick = this.onClick.bind(this); // (*)
+      elem.onclick = this.onClick.bind(this); 
     }
 
     Open() { console.log('Open');}
